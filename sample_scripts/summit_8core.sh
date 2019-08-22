@@ -13,7 +13,7 @@ module purge
 module load intel
 module load impi
 
-cd ../sample_code # the assumption
+cd ../sample_code 
 
 #The SLURM_NTASKS environment variable uses all ntasks specified (in this case, 8)
 mpiexec -np $SLURM_NTASKS ./hello.out
