@@ -18,5 +18,7 @@ module load impi
 
 cd ../sample_code 
 
+export I_MPI_FABRICS=shm   # This presently has to be done on blanca nodes for Intel MPI to work
+
 #The SLURM_NTASKS environment variable uses all ntasks specified (in this case 2)
 mpiexec -np $SLURM_NTASKS ./hello.out
