@@ -4,10 +4,10 @@
 #SBATCH --time=00:10:00
 #SBATCH --partition=blanca-appm
 #SBATCH --account=blanca-appm
-#SBATCH --qos=blanca-appm
-#SBATCH --ntasks=8
-#SBATCH --job-name=mpi-hello8
-#SBATCH --output=mpi-hello8.%j.out
+#SBATCH --qos=blanca-appm-student
+#SBATCH --ntasks=2
+#SBATCH --job-name=mpi-hello2
+#SBATCH --output=mpi-hello2.%j.out
 
 #NOTE:  This should be submitted from a login node
 #NOTE:  You must first run  "module load slurm/blanca" to submit

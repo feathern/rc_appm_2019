@@ -2,9 +2,9 @@
 
 #SBATCH --nodes=1
 #SBATCH --time=00:10:00
-#SBATCH --partition=blanca-sol
-#SBATCH --account=blanca-sol
-#SBATCH --qos=blanca-sol
+#SBATCH --partition=blanca-appm
+#SBATCH --account=blanca-appm
+#SBATCH --qos=blanca-appm
 #SBATCH --ntasks=2
 #SBATCH --job-name=mpi-hello2
 #SBATCH --output=mpi-hello2.%j.out

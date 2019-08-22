@@ -4,7 +4,7 @@
 #SBATCH --time=00:10:00
 #SBATCH --partition=blanca-appm
 #SBATCH --account=blanca-appm
-#SBATCH --qos=blanca-appm
+#SBATCH --qos=blanca-appm-student
 #SBATCH --ntasks=8
 #SBATCH --job-name=mpi-hello8
 #SBATCH --output=mpi-hello8.%j.out

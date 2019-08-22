@@ -5,8 +5,8 @@
 #SBATCH --qos=testing
 #SBATCH --partition=shas
 #SBATCH --ntasks=8
-#SBATCH --job-name=mpi-hello2
-#SBATCH --output=mpi-hello2.%j.out
+#SBATCH --job-name=mpi-hello8
+#SBATCH --output=mpi-hello8.%j.out
 
 
 module purge
