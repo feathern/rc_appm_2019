@@ -1,4 +1,4 @@
-The source code main.f90 defines a small parallel hello-world program (written in Fortran).
+The source code main.c defines a small parallel hello-world program.
 To compile this code, you must load a compiler and MPI module.  First run "module purge," and then:
 
 	module load intel
@@ -10,7 +10,7 @@ To compile this code, you must load a compiler and MPI module.  First run "modul
 	module load impi
 
 To build the code, type:
-mpif90 main.f90 -o hello.out
+mpicc main.c -o hello.out
 
 This will generate a file named hello.out.  To run the code within your job script, you must 
 also load the same module combination, then invoke mpiexec:
